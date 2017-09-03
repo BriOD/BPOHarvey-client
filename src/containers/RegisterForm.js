@@ -18,6 +18,7 @@ class RegisterForm extends Component {
         e.preventDefault();
         const payload = this.state;
         axios.post(`https://boiling-mesa-29772.herokuapp.com/api/pledgers`, payload)
+
     }
 
     render() {
